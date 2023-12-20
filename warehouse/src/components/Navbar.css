@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #333;
+  height: 100%;
+  width: 10vw;
+}
+.navbar .nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar .nav-list .nav-item {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar .nav-list .nav-item .nav-item-wrapper {
+  transition: 0.3s;
+  padding: 5px 10px;
+}
+.navbar .nav-list .nav-item .nav-item-wrapper:hover {
+  color: #ccc;
+  background-color: #595959;
+}/*# sourceMappingURL=Navbar.css.map */
